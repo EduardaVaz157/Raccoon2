@@ -25,6 +25,12 @@ text-align: center;
 
 }
 
+main{
+
+    flex-grow: 1;
+
+}
+
 aside{
 
 background-color: #420641;
@@ -39,7 +45,8 @@ padding-left: 60px;
  footer{
 
     background-color: #420641;
-    padding-bottom: 40px;
+    padding: 40px;
+    position: absolute;
 
 
 
