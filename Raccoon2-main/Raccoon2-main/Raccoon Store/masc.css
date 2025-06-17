@@ -1,6 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
     box-sizing: border-box;
 }
@@ -19,16 +16,14 @@ main{
 .navbar{
 
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
+    justify-content: center;
+    background: purple;
 }
 
 .navbar a{
 
-    color:black;
+    color:white;
     text-decoration: none;
-    display: row;
 }
 
 .center{
@@ -51,7 +46,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     }
 
 
@@ -64,28 +58,21 @@ footer{
     display: flex;
     }
 
-h1{
 
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
+.flex-container{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.flex-container div{
+
+    background: beige;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
     text-align: center;
-    margin-top: 20px;
-}
-
-
-ul{
-
-    list-style-type: none;
-
-}
-
-li{
-
-    margin: 10px;
-}
-
-a{
-
-    height: 100px;
 }
